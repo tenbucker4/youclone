@@ -7,7 +7,7 @@ import { Typography } from '@mui/material';
 const Nav = () => {
   return (
     <Stack zIndex={10} direction="row" alignItems="center" p={2} sx={{ position: "sticky", top: 0, background: "#0f0f0f", justifyContent: "space-between"}}>
-        <Link to="/" style={{ display: "flex", alignItems: "center", gap: "1rem" }}>
+        <Link to="/youclone" style={{ display: "flex", alignItems: "center", gap: "1rem" }}>
             <div className="app-logo">
                 <img src={require("../images/play.png")}></img>
             </div>
