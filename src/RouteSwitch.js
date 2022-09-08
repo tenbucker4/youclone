@@ -13,17 +13,17 @@ const RouteSwitch = () => {
             <Box sx={{ backgroundColor: "#0f0f0f" }}>
                 <Nav />
                 <Routes>
-                    <Route exact path="/" element={<Main />}></Route>
+                    <Route exact path="/youclone" element={<Main />}></Route>
                     <Route
-                        path="/video/:id"
+                        path="/youclone/video/:id"
                         element={<VideoContents />}
                     ></Route>
                     <Route
-                        path="/channel/:id"
+                        path="/youclone/channel/:id"
                         element={<ChannelContents />}
                     ></Route>
                     <Route
-                        path="/search/:searchQuery"
+                        path="/youclone/search/:searchQuery"
                         element={<SearchOutput />}
                     ></Route>
                 </Routes>
