@@ -17,7 +17,7 @@ const ChannelContainer = ({ channelDetails }) => {
       height: '326px',
     }}
   >
-    <Link to={`/channel/${channelDetails?.id?.channelId}`}>
+    <Link to={`/youclone/channel/${channelDetails?.id?.channelId}`}>
       <CardContent sx={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', textAlign: 'center', color: '#fff' }}>
         <CardMedia
           image={channelDetails?.snippet?.thumbnails?.high?.url || demoProfilePicture}

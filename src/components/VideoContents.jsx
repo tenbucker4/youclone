@@ -32,7 +32,7 @@ const VideoContents = () => {
           <Typography px={2} fontSize={18} color="white">{videoContent?.snippet?.title}</Typography>
           <Typography px={2} fontSize={14} color="gray">{parseInt(videoContent?.statistics?.viewCount).toLocaleString()} views
              {" "} - {" "} {parseInt(videoContent?.statistics?.likeCount).toLocaleString()} likes </Typography>
-          <Link to={`/channel/${videoContent?.snippet?.channelId}`}>
+          <Link to={`/youclone/channel/${videoContent?.snippet?.channelId}`}>
                 <Typography px={2} color="white" >
                   {videoContent?.snippet?.channelTitle}
                   <CheckCircle sx={{ fontSize: "12px", color: "gray", ml: "5px" }} />
