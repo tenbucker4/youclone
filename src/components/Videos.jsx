@@ -6,7 +6,7 @@ import ChannelContainer from './ChannelContainer'
 const Videos = ( { videos }) => {
 
   return (
-    <Stack direction="row" justifyContent="center" flexWrap="wrap" gap={2}>
+    <Stack direction="row" justifyContent="flex-start" flexWrap="wrap" gap={2}>
         {videos?.map((item, index) => (
             <Box key={index} display="flex" flexDirection="column">
                 {item.id.videoId && <VideoContainer video={item}/>}
