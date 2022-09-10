@@ -84,6 +84,7 @@ input:focus {
     position: absolute;
     top: 0;
     left: 0;
+    padding-left: 16px;
 }
 
 @media (max-width: 400px) {
