@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/youclone/static/css/main.d18d83b5.css",
-    "main.js": "/youclone/static/js/main.87721fec.js",
+    "main.js": "/youclone/static/js/main.2ed5a173.js",
     "index.html": "/youclone/index.html",
     "main.d18d83b5.css.map": "/youclone/static/css/main.d18d83b5.css.map",
-    "main.87721fec.js.map": "/youclone/static/js/main.87721fec.js.map"
+    "main.2ed5a173.js.map": "/youclone/static/js/main.2ed5a173.js.map"
   },
   "entrypoints": [
     "static/css/main.d18d83b5.css",
-    "static/js/main.87721fec.js"
+    "static/js/main.2ed5a173.js"
   ]
 }
