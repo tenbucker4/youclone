@@ -12,7 +12,7 @@ const SearchBar = () => {
         e.preventDefault();
 
         if (searchQuery) {
-            navigate(`/search/${searchQuery}`)
+            navigate(`/youclone/search/${searchQuery}`)
 
             setSearchQuery("")
         }
